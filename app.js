@@ -95,6 +95,7 @@ function checkForMatch(){
         resultDisplay.textContent = 'Você ganhou!!';
         btn.style.display = "flex";
         btn2.style.display = "flex"
+        btn2.style.display = "flex";
     }
 }
 
