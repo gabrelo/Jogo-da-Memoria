@@ -92,7 +92,7 @@ function checkForMatch(){
     resultDisplay.textContent = cardsWon.length
     if (cardsWon.length === cardArray.length/2){
         resultDisplay.textContent = 'Você ganhou!!';
-        btn.style.display = "block"
+        btn.style.display = "flex"
     }
 }
 
