@@ -120,14 +120,14 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             name: 'summer',
             img: 'images2/summer.png'
-        },
-       
+        },    
     ]
     
     cardArray.sort(() => 0.5 - Math.random())
-    
     const grid = document.querySelector('.grid')
     const resultDisplay = document.querySelector('#result')
+    const btn = document.querySelector(".btn")
+    const btn2 = document.querySelector(".btn2")
     var cardsChosen = []
     var cardsChosenId = []
     var cardsWon = []
@@ -162,7 +162,9 @@ document.addEventListener('DOMContentLoaded', () => {
         cardsChosenId = []
         resultDisplay.textContent = cardsWon.length
         if (cardsWon.length === cardArray.length/2){
-            resultDisplay.textContent = 'Parabéns, você encontrou todas as figuras. '
+            resultDisplay.textContent = 'Parabéns, você encontrou todas as figuras. ';
+            btn2.style.display = "flex";
+            btn.style.display = "flex"
         }
     }
     

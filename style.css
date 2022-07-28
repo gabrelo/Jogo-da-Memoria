@@ -49,3 +49,20 @@ h1{
     
 }
 
+.btn2{
+    display: flex;
+    background: rgb(58, 183, 255);
+    width: 180px;
+    height: 80px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    display: none;
+    
+}
+
